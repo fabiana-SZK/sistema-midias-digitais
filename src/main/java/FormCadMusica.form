@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Adicionar Musica"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="btLimpar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="btSair" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rotTamArq" min="-2" pref="116" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cxTamArq" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="rotExtensao" min="-2" pref="54" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="cxExtensao" min="-2" pref="138" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="rotDuracao" min="-2" pref="54" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="cxDuracao" min="-2" pref="138" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="rotTitulo" alignment="0" min="-2" pref="43" max="-2" attributes="0"/>
+                                              <Component id="rotID" alignment="0" min="-2" pref="25" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="cxId" alignment="0" min="-2" pref="138" max="-2" attributes="0"/>
+                                              <Component id="cxTitulo" alignment="0" min="-2" pref="138" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="rotDataCriacao" min="-2" pref="91" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="cxDataCriacao" min="-2" pref="106" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="rotArtista" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="rotAlbum" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="rotGenero" alignment="0" pref="51" max="32767" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="cxArtista" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="cxAlbum" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="cxGenero" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Component id="scrollTabMusica" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="btInserirMidia" min="-2" pref="67" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btAtualizaMusica" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btConsMusica" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btRemoveMidia" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace pref="42" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rotID" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxId" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rotDataCriacao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxDataCriacao" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rotTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTitulo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rotArtista" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxArtista" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="cxDuracao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rotDuracao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rotAlbum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxAlbum" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rotExtensao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxExtensao" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="rotGenero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxGenero" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="rotTamArq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cxTamArq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btInserirMidia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btAtualizaMusica" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btConsMusica" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btRemoveMidia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="scrollTabMusica" min="-2" pref="132" max="-2" attributes="0"/>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btLimpar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btSair" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="rotID">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotTitulo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Titulo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotDuracao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Duracao:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotExtensao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Extensao:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotTamArq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tamanho do Arquivo:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotDataCriacao">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Data de Criacao:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotArtista">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Artista:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotAlbum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Album:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="rotGenero">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Genero:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxId">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTitulo">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxDuracao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxExtensao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxTamArq">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxDataCriacao">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxArtista">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxAlbum">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cxGenero">
+    </Component>
+    <Component class="javax.swing.JButton" name="btInserirMidia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Inserir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btInserirMidiaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btAtualizaMusica">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Atualizar Musica"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btAtualizaMusicaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btConsMusica">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Consultar Musica"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btConsMusicaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btRemoveMidia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Remover Midia"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btRemoveMidiaActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btLimpar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Limpar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btLimparActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btSair">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btSairActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="scrollTabMusica">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tabMusica">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="7" rowCount="1">
+                <Column editable="true" title="ID" type="java.lang.Object"/>
+                <Column editable="true" title="Titulo" type="java.lang.Object"/>
+                <Column editable="true" title="Artista" type="java.lang.Object"/>
+                <Column editable="true" title="Album" type="java.lang.Object"/>
+                <Column editable="true" title="Duracao" type="java.lang.Object"/>
+                <Column editable="true" title="Data" type="java.lang.Object"/>
+                <Column editable="true" title="Extensao" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="tabMusicaMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
